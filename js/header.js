@@ -27,4 +27,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("header").innerHTML = header;
 });
-
