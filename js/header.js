@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <nav class="navbar navbar-expand-lg navbar-dark" style="background:#3C6E91;">
             <div class="container">
              <a class="navbar-brand d-flex align-items-center" href="index.html">
-    <img src="src/assets/Logo site.jpg" alt="logo" width="45" height="45" class="me-2">
+    <img src="./src/assets/Logo site.jpg" alt="logo" width="45" height="45" class="me-2">
     Colégio Horizonte
 </a>
 
@@ -27,3 +27,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("header").innerHTML = header;
 });
+
