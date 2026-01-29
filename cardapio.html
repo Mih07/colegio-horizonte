@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Cardápio - Colégio Horizonte</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+        body { background:#F7F7F7; }
+        .section-title { color:#3C6E91; font-weight:600; }
+        .card-custom {
+            background:#FFFDF8;
+            border:1px solid #E5DCC5;
+            border-radius:8px;
+            box-shadow:0 0 10px rgba(0,0,0,0.05);
+        }
+        .header-block {
+            background:#EAF4FC;
+            padding:50px 0;
+        }
+        table thead {
+            background:#3C6E91;
+            color:white;
+        }
+        table {
+            background:#FFFDF8;
+            border:1px solid #E5DCC5;
+        }
+    </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <div id="header"></div>
+
+<!-- HEADER -->
+    <section class="header-block text-center">
+        <div class="container">
+            <h1 class="section-title">Cardápio Escolar</h1>
+            <p class="lead mt-2">Confira o cardápio atualizado deste mês</p>
+        </div>
+    </section>
+
+    <!-- MÊS ATUAL -->
+    <section class="py-4">
+        <div class="container">
+            <h2 class="section-title mb-3">Fevereiro 2025</h2>
+
+            <p class="mb-4">Este cardápio é atualizado mensalmente para facilitar o acesso das famílias.</p>
+
+            <!-- TABELA do CARDÁPIO -->
+            <div class="table-responsive">
+                <table class="table table-bordered text-center align-middle">
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Café da Manhã</th>
+                            <th>Almoço</th>
+                            <th>Lanche da Tarde</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>Frutas + Leite</td>
+                            <td>Arroz, feijão, frango grelhado</td>
+                            <td>Bolo simples + Suco</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+                            <td>Pão integral + Suco</td>
+                            <td>Macarronada</td>
+                            <td>Iogurte + Frutas</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>Vitamina de banana</td>
+                            <td>Feijoada leve</td>
+                            <td>Biscoitos + Chá</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+                            <td>Pão + Manteiga</td>
+                            <td>Carne moída + Purê</td>
+                            <td>Frutas variadas</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>Leite + Cereais</td>
+                            <td>Peixe assado + Arroz</td>
+                            <td>Bolo de cenoura + Suco</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- QR CODE -->
+    <section class="py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="section-title mb-3">Acesse o cardápio pelo QR Code</h2>
+            <p class="mb-4">Fácil acesso para pais e responsáveis.</p>
+
+            <!-- QR CODE (troque pela imagem que você gerar em PNG) -->
+            <img src="src/assets/QR-Code.jpg" alt="QR Code" width="180" class="shadow-sm rounded">
+
+            <p class="mt-3 text-muted">Basta apontar a câmera do celular.</p>
+        </div>
+    </section>
+
+    <!-- OBSERVAÇÕES -->
+    <section class="py-4">
+        <div class="container">
+            <h2 class="section-title mb-3">Observações</h2>
+            <ul>
+                <li>Os alimentos podem variar conforme disponibilidade.</li>
+                <li>Pode haver substituição por restrições alimentares.</li>
+                <li>Atualizado pela coordenação de alimentação escolar.</li>
+            </ul>
+        </div>
+    </section>
+
+<div id="footer"></div>
+</body>
+<script src="js/footer.js"></script>
+<script src="js/header.js"></script>
+</html>
