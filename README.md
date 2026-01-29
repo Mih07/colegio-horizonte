@@ -17,3 +17,4 @@ Projeto desenvolvido como estudo de caso com foco em organização da comunicaç
 - JavaScript
 
 Projeto criado para demonstração em portfólio.
+Acesse: https://mih07.github.io/colegio-horizonte/
